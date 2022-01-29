@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Poppins&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.matter{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    background: #D9D7F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+}
+.profile img{
+    width: 150px;
+    height: auto;
+    border-radius: 40px;
+}
+.profile h1{
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    background: #E7FBBE;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.pro{
+    font-family: 'Source Sans Pro';
+    display: flex;
+    align-items: center;
+}
+.pro h1{
+    padding-left: 10px;
+}
+.empty{
+    background: #FFFDDE;
+    width: 100%;
+    position: absolute;
+    top: 255px;
+    z-index: -1;
+}
+.info{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.left{
+    width: 50%;
+}
+.lef{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
+}
+.content, .skills{
+padding-top: 20px;
+}
+.skills{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.list li{
+    list-style: none;
+}
+.list .range{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    align: center;
+}
+
+.lef .title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.vl{
+    border-left: 2px solid black;
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 400px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.rig{
+    margin: 40px;
+}
+.edu{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.exp, .exp li, .list2 li{
+    padding-top: 10px;
+}
+.exp, .list2{
+    padding-left: 3vh;
+}
